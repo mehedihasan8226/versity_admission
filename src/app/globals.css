@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.input-float::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.input-float:focus::placeholder {
+  opacity: 1;
+}
